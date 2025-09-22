@@ -1,0 +1,84 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#global-header{
+    background-image: url(https://t4.ftcdn.net/jpg/02/76/08/07/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 300px;
+    
+    nav{
+        
+        ul{
+            padding: 0;
+            margin: 0;
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+        }
+    }
+}
+#mainlogo{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem;
+}
+.google-btn{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 40px;
+}
+main{
+    padding: 1rem;
+    border-radius: 15%;
+    border: #000;
+}
+article{
+    border: 1px solid #000;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+aside{
+    padding: 1rem;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+footer{
+    padding: 1rem;
+    background-color: grey;
+    color: #fff;
+    input{
+        width: 100%;
+    }
+    label{
+        display: inline-block;
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    
+}
+#textarea{
+    padding: 1rem;
+    width: 100%;
+}

@@ -2,67 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Ovingsoppgave 3 - HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">LOGO</a>
+    <header id="global-header">
+        <a href="index.html" id="mainlogo">Logo</a>
         <nav>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="nettsideMal.html">Nettside mal</a></li>
-                <li><a href="labovelse.html">Labøvelse</a></li>
-                <li><a href="kontaktOss.html">Kontakt oss</a></li>
-
+                <li><a href="mal.html">Nettside mal</a></li>
+                <li><a href="ovelse.html">Labøvelse</a></li>
+                <li><a href="#contact">Kontakt oss</a></li>
             </ul>
         </nav>
     </header>
     <main>
-    <section>
-        <h1>Hovedpunkter</h1>
         <article>
-            <h3>Kontakt Oss</h3>
-            <p>Bacon ipsum dolor amet bacon ball tip pork chop</p>
+            <h3>Labøvelse</h3>
         </article>
         <article>
-            <h3>Studieplan</h3>
-            <p>Bacon ipsum dolor amet bacon ball tip pork chop</p>
+            <h3>Kontakt oss</h3>
         </article>
         <article>
-            <h3>Artikel 3</h3>
-            <p>Bacon ipsum dolor amet bacon ball tip pork chop</p>
+            <h3>Mal</h3>
         </article>
-    </section>
     </main>
     <aside>
-        <h1>Viktige linker til artikler om HTML</h1>
         <section>
-            <h4>Sematisk HTML</h4>
+            <h4>Semantisk HTML</h4>
             <ul>
-                <li><a href="https://ndla.no/nn/r/konseptutvikling-og-programmering-im-ikm-vg1/semantisk-html/0d94e80dec">NDLA</a></li>
-                <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3schools</a></li>
-                <li><a href="https://web.dev/learn/html/semantic-html">Web dev</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">MDN</a></li>
-                <li><a href="https://www.koding.no/opplaering/frontend/semantisk-html-og-tilgjengelighet/">Koding</a></li>
+                <li><a href="https://web.dev/learn/html/semantic-html" class="btn">web.dev - Semantic HTML</a></li>
+                <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" class="btn">W3 schools - HTML Semantic Elements</a></li>
+                <li><a href="https://www.semrush.com/blog/semantic-html5-guide/" class="btn">Semrush - What Is Semantic HTML?</a></li>
+                <li><a href="https://www.codecademy.com/resources/blog/semantic-html" class="btn">Codecademy - What is Semantic HTML & Why Is It Important for Accessibility?</a></li>
+                <li><a href="https://www.geeksforgeeks.org/html/html5-semantics/" class="btn">Geeks for Geeks - HTML5 Semantics</a></li>
             </ul>
         </section>
-            <h4>Søkeresultater til HTML 5</h4>
-            <ul>
-                <li><a href="https://www.google.com/search?q=html+5&oq=html+5&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQIxgnGIAEGIoFMgwIAhAAGEMYgAQYigUyBwgDEAAYgAQyDAgEEAAYQxiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE0NjJqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8">Google Søkeresultat HTML 5</a></li>
-            </ul>
+        <section>
+            <h4>Oversikt over SERP søk fra Google om semantisk HTML</h4>
+            <a class="google-btn" href="https://www.google.com/search?q=semantic+html&client=firefox-b-d&sca_esv=5b71cfa89013eb9f&ei=c8THaK6qKf_T9u8P55angQ8&oq=sematic+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHNlbWF0aWMgaHRtbCoCCAAyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBhAAGBYYHjIFEAAY7wUyBRAAGO8FMggQABiABBiiBEinPlDZCFjwOHAMeAGQAQCYAWSgAasKqgEEMTUuMbgBA8gBAPgBAZgCHKACzguoAgrCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgIZEC4YgAQYsAMY0QMYQxjHARjIAxiKBdgBAcICFhAuGIAEGLADGEMY1AIYyAMYigXYAQHCAggQABiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxiDARiKBcICBRAuGIAEwgIOEAAYgAQYsQMYgwEYigXCAgsQLhiABBixAxiDAcICDhAuGIAEGLEDGNEDGMcBwgILEC4YgAQYxwEYrwHCAgUQABiABMICCBAuGIAEGNQCwgILEC4YgAQY0QMYxwHCAhMQABiABBhDGLQCGIoFGOoC2AECwgIZEC4YgAQY0QMYQxi0AhjHARiKBRjqAtgBAsICChAAGIAEGEMYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIEEAAYA8ICDRAuGIAEGLEDGEMYigXCAggQLhiABBixA8ICHxAuGIAEGNEDGEMYxwEYigUYlwUY3AQY3gQY4ATYAQHCAhQQLhiABBiXBRjcBBjeBBjfBNgBAcICBxAuGIAEGArCAggQABgWGAoYHpgDBvEFwsYY0V0jJ6-IBgGQBhK6BgYIARABGAm6BgQIAhgHkgcEMjcuMaAHiqkBsgcEMTUuMbgHjwvCBwgwLjEuMjUuMsgHhgE&sclient=gws-wiz-serp">HTML SERP</a>
+        </section>
     </aside>
     <footer>
-        <h5>Kontakt meg!</h5>
         <ul>
-            <li>David Troncoso Braaten</li>
-            <li>Webutvikling</li>
-            <li><a href="davidtb@hiof.no">Epost</a></li>
+            <li>
+                Nora Nordmann
+            </li>
+            <li>
+                nora.nordman@hiof.no
+            </li>
         </ul>
-        <form>
-            <label>Send en melding<input type="text" placeholder="skriv din melding her...."></label>
-            <input type="submit" value="Send">
-          </form>
+        <form id="contact">
+            <label>
+                Navn:
+                <input type="text" placeholder="nora..." required>
+            </label>
+            <label>
+                E-post:
+                <input type="email" placeholder="nora.nordman@hiof.no" required>
+            </label>
+            <label>
+                Emne:
+                <input type="text" placeholder="Spm om HTML?">
+            </label>
+            <label>
+                Melding:
+                <textarea>
+
+                </textarea>
+            </label>
+        </form>
     </footer>
 </body>
-</html>
+</html> 
